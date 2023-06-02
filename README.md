@@ -1,4 +1,4 @@
-# HandBreak
+# HandBreak Encoding Presets
 
 HandBreak (https://handbrake.fr) is an Open Source video transcoder. 
 
