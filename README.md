@@ -1,6 +1,6 @@
 # HandBreak
 
-HandBreak (https://handbrake.fr/) is an Open Source video transcoder. 
+HandBreak (https://handbrake.fr) is an Open Source video transcoder. 
 
 This reposirtory contains HandBreak presets that can be used to compress large video files into smaller sizes for portability. The presets use a combination of H.265 encoding, resolution tweaking and video bitrate throttling to achieve the smaller storage footprint. 
 
