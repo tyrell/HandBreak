@@ -8,10 +8,10 @@ Needless to say that this is lossy compression and will result in the introducti
 
 Eg: "Small HD Episodes 720p.json" preset can reduce a 1.15GB source video file to 159.3MB (13.8 % of the source file). 
 
-Preset Name | Test Source File Size | Test Output File Size | Percentge
+Preset Name | Test Source File Size | Test Output File Size | Percentge (final size vs source)
 ---|---|---|---
-Small HD 720p.json | 1.15GB | 159.3MB | 13.8 %
-Small HD 1080p.json | 6.31GB | 1.03GB | 6.37 %
+Small HD 720p.json | 1.5GB | 228.4MB | 5.15% 
+Small HD 1080p.json | 6.31GB | 1.03GB | 6.37%
 
 
 # License
