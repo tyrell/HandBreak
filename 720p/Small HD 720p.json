@@ -12,16 +12,11 @@
       "AudioList" : [
         {
           "AudioBitrate" : 320,
-          "AudioCompressionLevel" : -1,
-          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "ca_aac",
           "AudioMixdown" : "stereo",
-          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0,
-          "AudioTrackQuality" : -1,
-          "AudioTrackQualityEnable" : false
+          "AudioTrackGainSlider" : 0
         }
       ],
       "AudioSecondaryEncoderMode" : true,
@@ -102,7 +97,7 @@
       "SubtitleTrackSelectionBehavior" : "none",
       "Type" : 1,
       "UsesPictureFilters" : true,
-      "VideoAvgBitrate" : 400,
+      "VideoAvgBitrate" : 1000,
       "VideoColorMatrixCodeOverride" : 0,
       "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
