@@ -97,7 +97,7 @@
       "SubtitleTrackSelectionBehavior" : "none",
       "Type" : 1,
       "UsesPictureFilters" : true,
-      "VideoAvgBitrate" : 1000,
+      "VideoAvgBitrate" : 500,
       "VideoColorMatrixCodeOverride" : 0,
       "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
