@@ -7,6 +7,7 @@
         "copy:ac3",
         "copy:dtshd",
         "copy:dts",
+        "copy:opus",
         "copy:truehd"
       ],
       "AudioEncoderFallback" : "ca_aac",

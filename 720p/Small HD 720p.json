@@ -3,7 +3,12 @@
     {
       "AlignAVStart" : true,
       "AudioCopyMask" : [
-        "copy:aac"
+        "copy:aac",
+        "copy:ac3",
+        "copy:dtshd",
+        "copy:dts",
+        "copy:opus",
+        "copy:truehd"
       ],
       "AudioEncoderFallback" : "ca_aac",
       "AudioLanguageList" : [
@@ -109,7 +114,7 @@
       "VideoPreset" : "fast",
       "VideoProfile" : "main",
       "VideoQSVDecode" : false,
-      "VideoQualitySlider" : 21,
+      "VideoQualitySlider" : 24,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
       "VideoTune" : "",
