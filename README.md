@@ -12,7 +12,7 @@ Preset Name | Test Source File Size | Test Output File Size | Percentge (final s
 ---|---|---|---
 Small HD Episodes 720p.json | 1.5GB | 228.4MB | 5.15% 
 Small HD Episodes 1080p.json | 6.31GB | 1.03GB | 6.37%
-Small HD Episodes 10-bit 720p.json | 1.22GB | 308.8 MB | 25.35%
+Small HD Episodes 10-bit 720p.json | 1.22GB | 308.8 MB | 25.35% (with 5.1 Surround Sound)
 
 
 
