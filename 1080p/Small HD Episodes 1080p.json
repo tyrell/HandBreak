@@ -17,11 +17,16 @@
       "AudioList" : [
         {
           "AudioBitrate" : 160,
+          "AudioCompressionLevel" : -1,
+          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
+          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0
+          "AudioTrackGainSlider" : 0,
+          "AudioTrackQuality" : -1,
+          "AudioTrackQualityEnable" : false
         }
       ],
       "AudioSecondaryEncoderMode" : true,
@@ -48,8 +53,8 @@
       "PictureColorspacePreset" : "off",
       "PictureCombDetectCustom" : "",
       "PictureCombDetectPreset" : "fast",
-      "PictureCropMode" : 0,
-      "PictureDARWidth" : 1912,
+      "PictureCropMode" : 2,
+      "PictureDARWidth" : 1920,
       "PictureDeblockCustom" : "strength=strong:thresh=20:blocksize=8",
       "PictureDeblockPreset" : "off",
       "PictureDeblockTune" : "medium",
@@ -67,7 +72,7 @@
       "PictureHeight" : 1080,
       "PictureItuPAR" : false,
       "PictureKeepRatio" : true,
-      "PictureLeftCrop" : 2,
+      "PictureLeftCrop" : 0,
       "PictureModulus" : 2,
       "PicturePadBottom" : 0,
       "PicturePadColor" : "black",
@@ -78,7 +83,7 @@
       "PicturePAR" : "auto",
       "PicturePARHeight" : 1,
       "PicturePARWidth" : 1,
-      "PictureRightCrop" : 6,
+      "PictureRightCrop" : 0,
       "PictureRotate" : "angle=0:hflip=0",
       "PictureSharpenCustom" : "",
       "PictureSharpenFilter" : "off",
