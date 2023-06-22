@@ -5,29 +5,18 @@
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
+        "copy:eac3",
         "copy:dtshd",
         "copy:dts",
         "copy:opus",
         "copy:truehd"
       ],
-      "AudioEncoderFallback" : "ca_aac",
+      "AudioEncoderFallback" : "none",
       "AudioLanguageList" : [
 
       ],
       "AudioList" : [
-        {
-          "AudioBitrate" : 160,
-          "AudioCompressionLevel" : -1,
-          "AudioDitherMethod" : "auto",
-          "AudioEncoder" : "copy",
-          "AudioMixdown" : "stereo",
-          "AudioNormalizeMixLevel" : false,
-          "AudioSamplerate" : "auto",
-          "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0,
-          "AudioTrackQuality" : -1,
-          "AudioTrackQualityEnable" : false
-        }
+
       ],
       "AudioSecondaryEncoderMode" : true,
       "AudioTrackSelectionBehavior" : "first",
@@ -35,7 +24,7 @@
       "ChildrenArray" : [
 
       ],
-      "Default" : false,
+      "Default" : true,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
