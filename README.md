@@ -10,6 +10,7 @@ Eg: "Small HD Episodes 720p.json" preset can reduce a 1.15GB source video file t
 
 Preset Name | Test Source File Size | Test Output File Size | Percentge (final size vs source)
 ---|---|---|---
+Small HD Episodes 480p.json | 367MB | 130.3MB | 35.49% 
 Small HD Episodes 720p.json | 1.5GB | 228.4MB | 5.15% 
 Small HD Episodes 1080p.json | 6.31GB | 1.03GB | 6.37%
 Small HD Episodes 10-bit 720p.json | 1.22GB | 308.8MB | 25.35% (with 5.1 Surround Sound)
