@@ -16,16 +16,11 @@
       "AudioList" : [
         {
           "AudioBitrate" : 160,
-          "AudioCompressionLevel" : -1,
-          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
-          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0,
-          "AudioTrackQuality" : -1,
-          "AudioTrackQualityEnable" : false
+          "AudioTrackGainSlider" : 0
         }
       ],
       "AudioSecondaryEncoderMode" : true,
