@@ -5,6 +5,7 @@
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
+        "copy:eac3",
         "copy:dtshd",
         "copy:dts",
         "copy:opus",
@@ -12,7 +13,7 @@
       ],
       "AudioEncoderFallback" : "ca_aac",
       "AudioLanguageList" : [
-
+        "eng"
       ],
       "AudioList" : [
         {
@@ -30,7 +31,7 @@
         }
       ],
       "AudioSecondaryEncoderMode" : true,
-      "AudioTrackSelectionBehavior" : "first",
+      "AudioTrackSelectionBehavior" : "all",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
 
@@ -41,8 +42,8 @@
       "FolderOpen" : false,
       "InlineParameterSets" : false,
       "MetadataPassthrough" : true,
-      "Mp4HttpOptimize" : false,
       "Mp4iPodCompatible" : false,
+      "Optimize" : false,
       "PictureAllowUpscaling" : false,
       "PictureAutoCrop" : true,
       "PictureBottomCrop" : 0,
@@ -96,15 +97,15 @@
       "PresetDisabled" : false,
       "PresetName" : "Small HD Episodes 720p",
       "SubtitleAddCC" : false,
-      "SubtitleAddForeignAudioSearch" : true,
+      "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
       "SubtitleBurnBDSub" : true,
       "SubtitleBurnBehavior" : "foreign",
       "SubtitleBurnDVDSub" : true,
       "SubtitleLanguageList" : [
-
+        "eng"
       ],
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 500,
@@ -115,6 +116,7 @@
       "VideoGrayScale" : false,
       "VideoHWDecode" : 0,
       "VideoLevel" : "3.1",
+      "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
       "VideoPreset" : "fast",
       "VideoProfile" : "main",
@@ -123,13 +125,12 @@
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
       "VideoTune" : "",
-      "VideoTurboTwoPass" : true,
-      "VideoTwoPass" : true,
+      "VideoTurboMultiPass" : true,
       "x264Option" : "",
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 50,
+  "VersionMajor" : 53,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

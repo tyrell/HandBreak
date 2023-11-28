@@ -3,13 +3,7 @@
     {
       "AlignAVStart" : true,
       "AudioCopyMask" : [
-        "copy:aac",
-        "copy:ac3",
-        "copy:eac3",
-        "copy:dtshd",
-        "copy:dts",
-        "copy:opus",
-        "copy:truehd"
+
       ],
       "AudioEncoderFallback" : "ca_aac",
       "AudioLanguageList" : [
@@ -55,7 +49,7 @@
       "PictureCombDetectCustom" : "",
       "PictureCombDetectPreset" : "default",
       "PictureCropMode" : 2,
-      "PictureDARWidth" : 1280,
+      "PictureDARWidth" : 960,
       "PictureDeblockCustom" : "strength=strong:thresh=20:blocksize=8",
       "PictureDeblockPreset" : "off",
       "PictureDeblockTune" : "medium",
@@ -95,22 +89,22 @@
       "PictureWidth" : 1280,
       "PresetDescription" : "",
       "PresetDisabled" : false,
-      "PresetName" : "Small HD Episodes 10-bit 720p",
+      "PresetName" : "Small HD Episodes 720p (Down Mix to Stereo)",
       "SubtitleAddCC" : false,
-      "SubtitleAddForeignAudioSearch" : false,
+      "SubtitleAddForeignAudioSearch" : true,
       "SubtitleAddForeignAudioSubtitle" : false,
-      "SubtitleBurnBDSub" : false,
-      "SubtitleBurnBehavior" : "none",
-      "SubtitleBurnDVDSub" : false,
+      "SubtitleBurnBDSub" : true,
+      "SubtitleBurnBehavior" : "foreign",
+      "SubtitleBurnDVDSub" : true,
       "SubtitleLanguageList" : [
-        "eng"
+
       ],
-      "SubtitleTrackSelectionBehavior" : "all",
+      "SubtitleTrackSelectionBehavior" : "none",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 500,
       "VideoColorMatrixCodeOverride" : 0,
-      "VideoEncoder" : "x265_10bit",
+      "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
       "VideoGrayScale" : false,
@@ -119,7 +113,7 @@
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
       "VideoPreset" : "fast",
-      "VideoProfile" : "auto",
+      "VideoProfile" : "main",
       "VideoQSVDecode" : false,
       "VideoQualitySlider" : 24,
       "VideoQualityType" : 1,

@@ -18,11 +18,16 @@
       "AudioList" : [
         {
           "AudioBitrate" : 160,
+          "AudioCompressionLevel" : -1,
+          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
+          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0
+          "AudioTrackGainSlider" : 0,
+          "AudioTrackQuality" : -1,
+          "AudioTrackQualityEnable" : false
         }
       ],
       "AudioSecondaryEncoderMode" : true,
@@ -31,14 +36,14 @@
       "ChildrenArray" : [
 
       ],
-      "Default" : false,
+      "Default" : true,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
       "MetadataPassthrough" : true,
-      "Mp4HttpOptimize" : false,
       "Mp4iPodCompatible" : false,
+      "Optimize" : false,
       "PictureAllowUpscaling" : false,
       "PictureAutoCrop" : true,
       "PictureBottomCrop" : 0,
@@ -111,6 +116,7 @@
       "VideoGrayScale" : false,
       "VideoHWDecode" : 0,
       "VideoLevel" : "auto",
+      "VideoMultiPass" : true,
       "VideoOptionExtra" : "strong-intra-smoothing=0:rect=0:aq-mode=1:rd=4:psy-rd=0.75:psy-rdoq=4.0:rdoq-level=1:rskip=2",
       "VideoPreset" : "superfast",
       "VideoProfile" : "main10",
@@ -119,13 +125,12 @@
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
       "VideoTune" : "",
-      "VideoTurboTwoPass" : true,
-      "VideoTwoPass" : true,
+      "VideoTurboMultiPass" : true,
       "x264Option" : "",
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 50,
+  "VersionMajor" : 53,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }
