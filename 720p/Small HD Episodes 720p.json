@@ -13,21 +13,17 @@
       ],
       "AudioEncoderFallback" : "ca_aac",
       "AudioLanguageList" : [
-        "eng"
+        "eng",
+        "und"
       ],
       "AudioList" : [
         {
           "AudioBitrate" : 320,
-          "AudioCompressionLevel" : -1,
-          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
-          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0,
-          "AudioTrackQuality" : -1,
-          "AudioTrackQualityEnable" : false
+          "AudioTrackGainSlider" : 0
         }
       ],
       "AudioSecondaryEncoderMode" : true,
@@ -36,7 +32,7 @@
       "ChildrenArray" : [
 
       ],
-      "Default" : false,
+      "Default" : true,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
@@ -130,7 +126,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 53,
+  "VersionMajor" : 56,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }
