@@ -2,6 +2,7 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
@@ -19,14 +20,20 @@
       "AudioList" : [
         {
           "AudioBitrate" : 320,
+          "AudioCompressionLevel" : -1,
+          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
+          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0
+          "AudioTrackGainSlider" : 0,
+          "AudioTrackQuality" : -1,
+          "AudioTrackQualityEnable" : false
         }
       ],
       "AudioSecondaryEncoderMode" : true,
+      "AudioTrackNamePassthru" : true,
       "AudioTrackSelectionBehavior" : "all",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
@@ -37,7 +44,7 @@
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -101,11 +108,13 @@
       "SubtitleLanguageList" : [
         "eng"
       ],
+      "SubtitleTrackNamePassthru" : true,
       "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 500,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -114,9 +123,9 @@
       "VideoLevel" : "3.1",
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
       "VideoPreset" : "fast",
       "VideoProfile" : "main",
-      "VideoQSVDecode" : false,
       "VideoQualitySlider" : 24,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -126,7 +135,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 56,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

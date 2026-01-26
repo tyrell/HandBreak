@@ -2,6 +2,7 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
@@ -32,17 +33,18 @@
         }
       ],
       "AudioSecondaryEncoderMode" : true,
+      "AudioTrackNamePassthru" : true,
       "AudioTrackSelectionBehavior" : "first",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
 
       ],
-      "Default" : true,
+      "Default" : false,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -56,7 +58,7 @@
       "PictureCombDetectCustom" : "",
       "PictureCombDetectPreset" : "fast",
       "PictureCropMode" : 2,
-      "PictureDARWidth" : 1920,
+      "PictureDARWidth" : 1918,
       "PictureDeblockCustom" : "",
       "PictureDeblockPreset" : "off",
       "PictureDeblockTune" : "medium",
@@ -98,19 +100,21 @@
       "PresetDisabled" : false,
       "PresetName" : "Small HD Episodes 10-bit 1080p",
       "SubtitleAddCC" : false,
-      "SubtitleAddForeignAudioSearch" : true,
+      "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
-      "SubtitleBurnBDSub" : true,
-      "SubtitleBurnBehavior" : "foreign",
-      "SubtitleBurnDVDSub" : true,
+      "SubtitleBurnBDSub" : false,
+      "SubtitleBurnBehavior" : "none",
+      "SubtitleBurnDVDSub" : false,
       "SubtitleLanguageList" : [
-
+        "eng"
       ],
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackNamePassthru" : true,
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 1000,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265_10bit",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -118,10 +122,10 @@
       "VideoHWDecode" : 0,
       "VideoLevel" : "auto",
       "VideoMultiPass" : true,
-      "VideoOptionExtra" : "strong-intra-smoothing=0:rect=0:aq-mode=1:rd=4:psy-rd=0.75:psy-rdoq=4.0:rdoq-level=1:rskip=2",
-      "VideoPreset" : "superfast",
-      "VideoProfile" : "main10",
-      "VideoQSVDecode" : false,
+      "VideoOptionExtra" : "",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
+      "VideoPreset" : "medium",
+      "VideoProfile" : "auto",
       "VideoQualitySlider" : 18,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -131,7 +135,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 56,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

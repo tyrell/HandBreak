@@ -2,16 +2,20 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
+        "copy:eac3",
         "copy:dtshd",
         "copy:dts",
-        "copy:opus"
+        "copy:opus",
+        "copy:truehd"
       ],
       "AudioEncoderFallback" : "ca_aac",
       "AudioLanguageList" : [
-        "eng"
+        "eng",
+        "und"
       ],
       "AudioList" : [
         {
@@ -29,6 +33,7 @@
         }
       ],
       "AudioSecondaryEncoderMode" : true,
+      "AudioTrackNamePassthru" : true,
       "AudioTrackSelectionBehavior" : "first",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
@@ -39,7 +44,7 @@
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -53,7 +58,7 @@
       "PictureCombDetectCustom" : "",
       "PictureCombDetectPreset" : "fast",
       "PictureCropMode" : 2,
-      "PictureDARWidth" : 3840,
+      "PictureDARWidth" : 3848,
       "PictureDeblockCustom" : "",
       "PictureDeblockPreset" : "off",
       "PictureDeblockTune" : "medium",
@@ -80,8 +85,8 @@
       "PicturePadRight" : 0,
       "PicturePadTop" : 0,
       "PicturePAR" : "auto",
-      "PicturePARHeight" : 1,
-      "PicturePARWidth" : 1,
+      "PicturePARHeight" : 480,
+      "PicturePARWidth" : 481,
       "PictureRightCrop" : 0,
       "PictureRotate" : "angle=0:hflip=0",
       "PictureSharpenCustom" : "",
@@ -103,11 +108,13 @@
       "SubtitleLanguageList" : [
 
       ],
+      "SubtitleTrackNamePassthru" : true,
       "SubtitleTrackSelectionBehavior" : "none",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 4000,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265_10bit",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -116,9 +123,9 @@
       "VideoLevel" : "auto",
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "strong-intra-smoothing=0:rect=0:aq-mode=1:rd=4:psy-rd=0.75:psy-rdoq=4.0:rdoq-level=1:rskip=2",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
       "VideoPreset" : "superfast",
       "VideoProfile" : "main10",
-      "VideoQSVDecode" : false,
       "VideoQualitySlider" : 18,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -128,7 +135,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 53,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

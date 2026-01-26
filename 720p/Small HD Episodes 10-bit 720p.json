@@ -2,6 +2,7 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
@@ -31,6 +32,7 @@
         }
       ],
       "AudioSecondaryEncoderMode" : true,
+      "AudioTrackNamePassthru" : true,
       "AudioTrackSelectionBehavior" : "first",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
@@ -41,7 +43,7 @@
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -105,11 +107,13 @@
       "SubtitleLanguageList" : [
         "eng"
       ],
+      "SubtitleTrackNamePassthru" : true,
       "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 500,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265_10bit",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -118,9 +122,9 @@
       "VideoLevel" : "3.1",
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
       "VideoPreset" : "fast",
       "VideoProfile" : "auto",
-      "VideoQSVDecode" : false,
       "VideoQualitySlider" : 24,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -130,7 +134,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 53,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

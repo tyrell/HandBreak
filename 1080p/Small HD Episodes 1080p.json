@@ -2,6 +2,7 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
@@ -11,15 +12,29 @@
         "copy:opus",
         "copy:truehd"
       ],
-      "AudioEncoderFallback" : "none",
+      "AudioEncoderFallback" : "ac3",
       "AudioLanguageList" : [
-
+        "und",
+        "eng"
       ],
       "AudioList" : [
-
+        {
+          "AudioBitrate" : 224,
+          "AudioCompressionLevel" : -1,
+          "AudioDitherMethod" : "auto",
+          "AudioEncoder" : "copy",
+          "AudioMixdown" : "5point1",
+          "AudioNormalizeMixLevel" : false,
+          "AudioSamplerate" : "auto",
+          "AudioTrackDRCSlider" : 0,
+          "AudioTrackGainSlider" : 0,
+          "AudioTrackQuality" : -1,
+          "AudioTrackQualityEnable" : false
+        }
       ],
       "AudioSecondaryEncoderMode" : true,
-      "AudioTrackSelectionBehavior" : "first",
+      "AudioTrackNamePassthru" : true,
+      "AudioTrackSelectionBehavior" : "all",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
 
@@ -29,7 +44,7 @@
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -85,19 +100,21 @@
       "PresetDisabled" : false,
       "PresetName" : "Small HD Episodes 1080p",
       "SubtitleAddCC" : false,
-      "SubtitleAddForeignAudioSearch" : true,
+      "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
       "SubtitleBurnBDSub" : true,
       "SubtitleBurnBehavior" : "foreign",
       "SubtitleBurnDVDSub" : true,
       "SubtitleLanguageList" : [
-
+        "eng"
       ],
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackNamePassthru" : true,
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 1000,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -106,9 +123,9 @@
       "VideoLevel" : "4.0",
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
       "VideoPreset" : "veryfast",
       "VideoProfile" : "main",
-      "VideoQSVDecode" : false,
       "VideoQualitySlider" : 24,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -118,7 +135,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 53,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

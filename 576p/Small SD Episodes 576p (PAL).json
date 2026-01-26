@@ -2,6 +2,7 @@
   "PresetList" : [
     {
       "AlignAVStart" : true,
+      "AudioAutomaticNamingBehavior" : "unnamed",
       "AudioCopyMask" : [
         "copy:aac",
         "copy:ac3",
@@ -18,25 +19,31 @@
       "AudioList" : [
         {
           "AudioBitrate" : 160,
+          "AudioCompressionLevel" : -1,
+          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy:ac3",
           "AudioMixdown" : "stereo",
+          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0
+          "AudioTrackGainSlider" : 0,
+          "AudioTrackQuality" : -1,
+          "AudioTrackQualityEnable" : false
         }
       ],
       "AudioSecondaryEncoderMode" : true,
+      "AudioTrackNamePassthru" : true,
       "AudioTrackSelectionBehavior" : "first",
       "ChapterMarkers" : true,
       "ChildrenArray" : [
 
       ],
-      "Default" : true,
+      "Default" : false,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
       "InlineParameterSets" : false,
-      "MetadataPassthrough" : true,
+      "MetadataPassthru" : true,
       "Mp4iPodCompatible" : false,
       "Optimize" : false,
       "PictureAllowUpscaling" : false,
@@ -100,11 +107,13 @@
       "SubtitleLanguageList" : [
 
       ],
+      "SubtitleTrackNamePassthru" : true,
       "SubtitleTrackSelectionBehavior" : "none",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 250,
       "VideoColorMatrixCodeOverride" : 0,
+      "VideoColorRange" : "limited",
       "VideoEncoder" : "x265",
       "VideoFramerate" : "auto",
       "VideoFramerateMode" : "cfr",
@@ -113,9 +122,9 @@
       "VideoLevel" : "3.1",
       "VideoMultiPass" : true,
       "VideoOptionExtra" : "",
+      "VideoPasshtruHDRDynamicMetadata" : "all",
       "VideoPreset" : "veryfast",
       "VideoProfile" : "main",
-      "VideoQSVDecode" : false,
       "VideoQualitySlider" : 22,
       "VideoQualityType" : 1,
       "VideoScaler" : "swscale",
@@ -125,7 +134,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 53,
+  "VersionMajor" : 67,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }
