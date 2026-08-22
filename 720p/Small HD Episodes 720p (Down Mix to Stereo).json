@@ -96,13 +96,13 @@
       "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
       "SubtitleBurnBDSub" : true,
-      "SubtitleBurnBehavior" : "foreign",
+      "SubtitleBurnBehavior" : "none",
       "SubtitleBurnDVDSub" : true,
       "SubtitleLanguageList" : [
-
+        "eng"
       ],
       "SubtitleTrackNamePassthru" : true,
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 500,
@@ -128,7 +128,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 67,
+  "VersionMajor" : 72,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

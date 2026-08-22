@@ -39,7 +39,7 @@
       "ChildrenArray" : [
 
       ],
-      "Default" : true,
+      "Default" : false,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
@@ -135,7 +135,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 67,
+  "VersionMajor" : 72,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }

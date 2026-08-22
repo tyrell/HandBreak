@@ -20,16 +20,11 @@
       "AudioList" : [
         {
           "AudioBitrate" : 160,
-          "AudioCompressionLevel" : -1,
-          "AudioDitherMethod" : "auto",
           "AudioEncoder" : "copy",
           "AudioMixdown" : "stereo",
-          "AudioNormalizeMixLevel" : false,
           "AudioSamplerate" : "auto",
           "AudioTrackDRCSlider" : 0,
-          "AudioTrackGainSlider" : 0,
-          "AudioTrackQuality" : -1,
-          "AudioTrackQualityEnable" : false
+          "AudioTrackGainSlider" : 0
         }
       ],
       "AudioSecondaryEncoderMode" : true,
@@ -39,7 +34,7 @@
       "ChildrenArray" : [
 
       ],
-      "Default" : false,
+      "Default" : true,
       "FileFormat" : "av_mkv",
       "Folder" : false,
       "FolderOpen" : false,
@@ -58,7 +53,7 @@
       "PictureCombDetectCustom" : "",
       "PictureCombDetectPreset" : "fast",
       "PictureCropMode" : 2,
-      "PictureDARWidth" : 3848,
+      "PictureDARWidth" : 3840,
       "PictureDeblockCustom" : "",
       "PictureDeblockPreset" : "off",
       "PictureDeblockTune" : "medium",
@@ -85,8 +80,8 @@
       "PicturePadRight" : 0,
       "PicturePadTop" : 0,
       "PicturePAR" : "auto",
-      "PicturePARHeight" : 480,
-      "PicturePARWidth" : 481,
+      "PicturePARHeight" : 1,
+      "PicturePARWidth" : 1,
       "PictureRightCrop" : 0,
       "PictureRotate" : "angle=0:hflip=0",
       "PictureSharpenCustom" : "",
@@ -100,16 +95,17 @@
       "PresetDisabled" : false,
       "PresetName" : "Small Movies 4K UHD (2160p 10-bit)",
       "SubtitleAddCC" : false,
-      "SubtitleAddForeignAudioSearch" : true,
+      "SubtitleAddForeignAudioSearch" : false,
       "SubtitleAddForeignAudioSubtitle" : false,
-      "SubtitleBurnBDSub" : true,
-      "SubtitleBurnBehavior" : "foreign",
-      "SubtitleBurnDVDSub" : true,
+      "SubtitleBurnBDSub" : false,
+      "SubtitleBurnBehavior" : "none",
+      "SubtitleBurnDVDSub" : false,
       "SubtitleLanguageList" : [
-
+        "und",
+        "eng"
       ],
       "SubtitleTrackNamePassthru" : true,
-      "SubtitleTrackSelectionBehavior" : "none",
+      "SubtitleTrackSelectionBehavior" : "all",
       "Type" : 1,
       "UsesPictureFilters" : true,
       "VideoAvgBitrate" : 4000,
@@ -135,7 +131,7 @@
       "x264UseAdvancedOptions" : false
     }
   ],
-  "VersionMajor" : 67,
+  "VersionMajor" : 72,
   "VersionMicro" : 0,
   "VersionMinor" : 0
 }
